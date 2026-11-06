@@ -1,0 +1,14 @@
+# Entornos Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Archivos de entorno con credenciales reales
+.env
+*.env
+!server_patch/.env.mujeres
+
+# MicroPython compiled
+*.mpy
